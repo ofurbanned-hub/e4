@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "myclient",
+  "version": "${version}",
+  "name": "MyClient",
+  "description": "Private modular Fabric client framework.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.myclient.MyClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.3",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
